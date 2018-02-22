@@ -1,0 +1,39 @@
+body{
+    overflow-x:hidden;
+}
+
+
+@media only screen  and (max-width : 420px) {
+    #homeslika{
+        margin-top:30px;
+    }
+    #firsttext{
+        margin-top:-200px !important;
+    }
+}
+
+
+@media only screen  and (max-width : 341px) {
+    #prednja{
+        margin-left:20px !important;
+
+    }
+    #srednja{
+        margin-left:20px !important;
+    }
+    #zadnja{
+        margin-left:20px !important;
+    }
+    #firsttext{
+        margin-top:-250px !important;
+    }
+
+}
+
+
+@media only screen  and (max-width : 550px) {
+
+    #firsttext{
+        margin-top:-100px;
+    }
+}

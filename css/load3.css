@@ -1,0 +1,61 @@
+body,
+html{
+    height:100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#loadbg {
+    background-color: black;
+    position: relative;
+    height:100%;
+
+
+}
+
+#loadimg{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2000 !important;
+    position:absolute;
+}
+
+
+.opacity{
+    opacity:0;
+}
+
+
+#a{
+    transform:translateX(75px) scale(1.5);
+
+}
+
+#k{
+    transform:translateX(-55px) scale(1.5);
+}
+
+#Layer_1{
+    transform: perspective(600px);
+}
+
+#ace{
+    stroke-dasharray: 465;
+    stroke-dashoffset: 465;
+    animation: dash 0.7s ease-out forwards;
+    animation-delay: 10s;
+    opacity:1 !important;
+
+}
+@keyframes dash {
+    from {
+        stroke-dashoffset: 465;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
